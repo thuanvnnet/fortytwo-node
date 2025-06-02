@@ -1,7 +1,3 @@
-Here's a guide to automatically running Fortytwo Nodes based on the available documentation:
-
----
-
 # **Automating Fortytwo Node Deployment**
 
 ## **Prerequisites**
