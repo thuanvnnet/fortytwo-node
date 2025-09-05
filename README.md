@@ -1,5 +1,5 @@
 # **Automating Fortytwo Node Deployment**
-
+A decentralized AI network where every computer contributes to planetary-scale intelligence
 ## **Prerequisites**
 Before setting up an automated Fortytwo Node, ensure your system meets the following requirements:
 - **Operating System:** Ubuntu 20.04 / 22.04 (recommended)
