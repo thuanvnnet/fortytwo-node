@@ -44,6 +44,7 @@ Save and exit.
 ## **Step 5: Monitor and Manage the Node**
 To check if the node is running:
 ```bash
+cd ~/Fortytwo/fortytwo-console-app-main
 screen -ls
 ```
 To re-enter the session:
