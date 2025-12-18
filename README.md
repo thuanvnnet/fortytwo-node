@@ -10,6 +10,7 @@ Before setting up an automated Fortytwo Node, ensure your system meets the follo
 Run the following command to install necessary packages:
 ```bash
 sudo apt update && sudo apt install -y curl unzip libgomp1 screen
+apt update && apt install -y curl unzip libgomp1 screen
 ```
 
 ## **Step 2: Download and Set Up the Node**
