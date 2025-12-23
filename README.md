@@ -21,36 +21,6 @@ unzip fortytwo-console-app.zip
 cd fortytwo-console-app-main
 screen -S fortytwo
 chmod +x linux.sh && ./linux.sh
-```
-
-## **Step 3: Automate Node Execution**
-To ensure the node runs automatically, create a startup script:
-```bash
-echo '#!/bin/bash
-cd ~/Fortytwo/fortytwo-console-app-main
-screen -dmS fortytwo ./linux.sh' > ~/Fortytwo/start_node.sh
-chmod +x ~/Fortytwo/start_node.sh
-```
-
-## **Step 4: Schedule Auto-Start with Cron**
-Edit the crontab to run the node at system startup:
-```bash
-crontab -e
-```
-Add the following line at the end:
-```bash
-@reboot ~/Fortytwo/start_node.sh
-```
-Save and exit.
-
-## **Step 5: Monitor and Manage the Node**
-To check if the node is running:
-```bash
-cd ~/Fortytwo/fortytwo-console-app-main
-screen -ls
-```
-To re-enter the session:
-```bash
 screen -r fortytwo
 ```
 To stop the node:
@@ -59,5 +29,4 @@ screen -X -S fortytwo quit
 ```
 
 ---
-
 This setup ensures your Fortytwo Node starts automatically upon system reboot and runs in the background. Let me know if you need further customization! 🚀
