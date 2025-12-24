@@ -26,7 +26,8 @@ screen -r fortytwo or tmux attach -t fortytwo
 To stop the node:
 ```bash
 screen -X -S fortytwo quit
-```
 Exit tmux Ctrl + B and D
+```
+
 ---
 This setup ensures your Fortytwo Node starts automatically upon system reboot and runs in the background. Let me know if you need further customization! 🚀
