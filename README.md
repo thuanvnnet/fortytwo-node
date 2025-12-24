@@ -9,7 +9,7 @@ Before setting up an automated Fortytwo Node, ensure your system meets the follo
 ## **Step 1: Install Required Dependencies**
 Run the following command to install necessary packages:
 ```bash
-apt update && apt install -y curl unzip libgomp1 screen
+apt update && apt install -y curl unzip libgomp1 screen tmux
 ```
 
 ## **Step 2: Download and Set Up the Node**
