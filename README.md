@@ -19,9 +19,9 @@ mkdir -p ~/FortytwoCLI && cd ~/FortytwoCLI
 curl -L -o fortytwo-console-app.zip https://github.com/Fortytwo-Network/fortytwo-console-app/archive/refs/heads/main.zip
 unzip fortytwo-console-app.zip
 cd fortytwo-console-app-main
-screen -S fortytwo
+screen -S fortytwo or tmux new -s fortytwo
 chmod +x linux.sh && ./linux.sh
-screen -r fortytwo
+screen -r fortytwo or tmux attach -t fortytwo
 ```
 To stop the node:
 ```bash
